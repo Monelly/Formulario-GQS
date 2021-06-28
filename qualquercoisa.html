@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div> <h1>Formulário:</h1>
+          <P> Preencha as informações abaixo</p>
+    </div>
+    <form>
+        <fieldset>
+            <div>
+                <label> Nome completo</label>
+                <input type="texto">
+            </div>
+            <div>
+                <label>Insira seu email:</label>
+                <input type="email" nome="email" id="email">
+            </div>
+        </fieldset>
+        <div>
+            <label>Você tem alguma experiência com programação?</label> <br>
+            <label>
+                <input type="radio" name="sim" value="">Sim
+            </label>
+            <label>
+                <input type="radio" name="não" value="">Não
+            </label> <br>
+        </div>
+        <div>
+            <label>Em qual série você estuda?</label> <br>
+            <label>
+                <input type="radio" name="devweb" value="">7série <br>
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="">8série <br>
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="">9série <br>
+            </label>
+        </div>
+        <fieldset>
+            <div>
+                <label>Você tem dispositivo eletrônico? se sim, selecione qual:</label><br><br>
+                <input type="checkbox" id="dispositivo" name="dispositivo1" value="">
+                <label> Computador </label>  <br>
+                <input type="checkbox" id="dispositivo1" name="dispositivo1" value="">
+                <label>  Tablet  </label><br>
+                <input type="checkbox" id="dispositivo2" name="dispositivo2" value="">
+                <label> não tenho nenhuma das opções</label>
+            </div>
+        </fieldset>
+        <button type="submit"> Enviar formulário </button>
+    </form>
+</body>
+</html>
